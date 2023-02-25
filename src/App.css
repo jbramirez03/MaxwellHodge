@@ -174,3 +174,28 @@ button {
 .scroll-header .nav__toggle {
   color: var(--text-color);
 }
+
+.vl {
+  border-left: 1.2px solid rgb(254, 255, 254);
+  height: 100vh;
+  position: absolute;
+  margin-left: -3px;
+  top: 0;
+  z-index: -1;
+}
+
+.vl-1 {
+  left: 20%;
+}
+
+.vl-2 {
+  left: 40%;
+}
+
+.vl-3 {
+  left: 60%;
+}
+
+.vl-4 {
+  left: 80%;
+}
