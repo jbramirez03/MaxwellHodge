@@ -2,12 +2,12 @@
 
 :root {
   --header-height: 3.5rem;
-  --text-color: hsl(47, 34, 47, 100%);
-  --text-color-lighten: hsl(47, 32, 65, 100%);
-  --second-color: hsl(0, 2, 26, 100%);
-  --title-color: hsl(47, 41, 57, 100%);
+  --text-color: hsl(47, 34%, 47%);
+  --text-color-lighten: hsl(47, 32%, 65%);
+  --second-color: hsl(0, 2%, 26%);
+  --title-color: hsl(47, 41%, 57%);
   --body-color: #f6f6f6;
-  --home-body-color: hsl(50, 0, 15, 100%);
+  --home-body-color: hsl(0, 0%, 15%);
 
   --body-cont: "poppins", sans-serif;
   --biggest-font-size: 2.25rem;
@@ -51,7 +51,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--second-color);
 }
 
 h1,
@@ -97,7 +96,7 @@ button {
 .nav__logo,
 .nav__toggle,
 .nav__close {
-  color: hsl(47, 34%, 47%);
+  color: var(--text-color);
 }
 
 .nav__logo {
@@ -160,4 +159,18 @@ button {
   font-size: 1.5rem;
   /* color: var(--title-color); */
   cursor: pointer;
+}
+
+.show-menu {
+  right: 0;
+}
+
+.scroll-header {
+  background-color: #fff;
+  box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
+}
+
+.scroll-header .nav__logo,
+.scroll-header .nav__toggle {
+  color: var(--text-color);
 }
