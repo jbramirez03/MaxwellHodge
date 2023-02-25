@@ -10,7 +10,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/'></Route>
+        <Route path='/' element={
+          <>
+            <Header></Header>
+          </>
+        }>
+        </Route>
         <Route path='/about'></Route>
         <Route path='/services'></Route>
         <Route path='/contact'></Route>
