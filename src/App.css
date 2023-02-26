@@ -119,6 +119,12 @@ button {
   font-size: var(--h1-font-size);
 }
 
+.nav__logo img {
+  width: 30px;
+  width: 30px;
+  border-radius: 360px;
+}
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
