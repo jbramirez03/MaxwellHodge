@@ -50,7 +50,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: var(--home-body-color);
 }
 
 h1,
@@ -182,7 +182,7 @@ button {
 }
 
 .vl {
-  border-left: 1.2px solid rgb(254, 255, 254);
+  border-left: 1.2px solid #434141;
   height: 100vh;
   position: absolute;
   margin-left: -3px;
