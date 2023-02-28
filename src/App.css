@@ -266,7 +266,13 @@ button {
   border-radius: 5px;
   font-size: 1.15em;
   z-index: 20;
-  color: #ffffff;
-  border: solid 1px var(--text-color);
+  color: var(--text-color-lighten);
+  border: none;
+  background: #434141;
+  transition: 0.3s ease-in;
+}
+
+.home__button:hover {
   background: transparent;
+  border: solid 1px var(--text-color);
 }
