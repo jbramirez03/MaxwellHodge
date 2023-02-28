@@ -17,7 +17,18 @@ const Footer = () => {
                         <li className="footer__information">+13365243110</li>
 
                         <div className="footer__social">
-                            <a href="https://www.instagram.com/" target="_blank" className="footer__social-link"><i className="ri-instagram-line"></i></a>
+                            <a
+                                href="https://www.instagram.com/"
+                                target="_blank"
+                                className="footer__social-link">
+                                <i className="ri-instagram-line"></i>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/"
+                                target="_blank"
+                                className="footer__social-link">
+                                <i className="ri-facebook-fill"></i>
+                            </a>
                         </div>
                     </ul>
                 </div>
