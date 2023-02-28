@@ -215,3 +215,17 @@ button {
   background-color: var(--home-body-color);
   z-index: -11;
 }
+
+.home__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  row-gap: 2rem;
+}
+
+.home__image-container img {
+  height: 75%;
+  width: 75%;
+}
