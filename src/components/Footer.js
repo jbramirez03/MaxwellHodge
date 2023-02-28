@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer__container container grid">
                 <div className="footer__content">
                     <Link to='/' className='footer__logo'>
-                        <i className="ri-home-4-fill"></i> Maxwell Hodge
+                        <i className="ri-home-4-fill footer__logo-icon"></i> Maxwell Hodge
                     </Link>
                 </div>
                 <div className="footer__content">
@@ -31,6 +31,9 @@ const Footer = () => {
                             </a>
                         </div>
                     </ul>
+                </div>
+                <div className="footer__content">
+                    <h3 className="footer__title">Accepting business with clients from all areas.</h3>
                 </div>
             </div>
             <p className="footer__copy container">&#169; MaxwellHodge. All rights reserved.</p>

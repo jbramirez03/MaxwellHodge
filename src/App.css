@@ -303,5 +303,66 @@ button {
 
 .footer {
   background-color: #434141;
-  padding: 3rem;
+}
+
+.footer__container {
+  row-gap: 3rem;
+}
+
+.footer__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: #bdbbbb;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -1px;
+  transition: 0.3s;
+}
+
+.footer__logo-icon {
+  font-size: 1.15rem;
+  color: #bdbbbb;
+}
+
+.footer__logo:hover {
+  color: var(--text-color-lighten);
+}
+
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.5rem;
+  color: #bdbbbb;
+}
+
+.footer__data {
+  display: grid;
+  row-gap: 0.75rem;
+}
+
+.footer__information {
+  font-size: var(--small-font-size);
+  color: #bdbbbb;
+}
+
+.footer__social {
+  display: inline-flex;
+  column-gap: 0.75rem;
+}
+
+.footer__social-link {
+  font-size: 1rem;
+  color: #bdbbbb;
+  transition: 0.3s;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-0.25rem);
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-lighten);
+  margin: 3rem 0 1rem;
 }
