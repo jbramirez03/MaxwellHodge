@@ -4,6 +4,10 @@ import homeImg from '../images/main.png';
 const Home = () => {
     return (
         <div className='home__section section container' id='home'>
+            <div className='vl-home vl-1' />
+            <div className='vl-home vl-2' />
+            <div className='vl-home vl-3' />
+            <div className='vl-home vl-4' />
 
             <div className="home__image-container">
                 <img src={homeImg} />
