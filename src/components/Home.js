@@ -7,7 +7,8 @@ const Home = () => {
             <div className='home__background'></div>
             <div className="home__image-container">
                 <img src={homeImg} />
-                <h1 className=''>Maxwell Hodge</h1>
+                <h1 className='home__title'>Maxwell Hodge</h1>
+                <button className="home__button">Reach Me</button>
             </div>
         </div>
     )
