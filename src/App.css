@@ -21,8 +21,9 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  --z-tooltip: 10;
-  --z-fixed: 100;
+  --z-index-negative: -5;
+  --z-index-positive: 5;
+  --z-index-nav: 10;
 }
 
 @media screen and (min-width: 1024px) {
@@ -166,7 +167,7 @@ button {
     box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
     padding: 3rem;
     transition: 0.4s;
-    z-index: 20;
+    z-index: var(--z-index-nav);
   }
 }
 
@@ -191,7 +192,6 @@ button {
   top: 0.75rem;
   right: 1rem;
   font-size: 1.5rem;
-  /* color: var(--title-color); */
   cursor: pointer;
 }
 
@@ -215,16 +215,11 @@ button {
   position: absolute;
   margin-left: -3px;
   top: 0;
-  z-index: -10;
+  z-index: var(--z-index-negative);
 }
 
 .vl-home {
-  border-left: 1.2px solid #434141;
-  height: 100%;
-  position: absolute;
-  margin-left: -3px;
-  top: 0;
-  z-index: 5;
+  z-index: var(--z-index-positive);
 }
 
 .vl-1 {
@@ -248,7 +243,7 @@ button {
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: -12;
+  z-index: var(--z-index-negative);
 }
 
 .home__section {
@@ -283,7 +278,6 @@ button {
   height: 50px;
   border-radius: 5px;
   font-size: 1.15em;
-  /* z-index: 20; */
   color: var(--text-color-lighten);
   border: none;
   background: #434141;
@@ -295,13 +289,13 @@ button {
   border: solid 1px var(--text-color);
 }
 
-.line__one {
+.home__line-one {
   display: flex;
   justify-content: flex-start;
   width: 50%;
 }
 
-.line__two {
+.home__line-two {
   display: flex;
   justify-content: flex-end;
   width: 60%;
