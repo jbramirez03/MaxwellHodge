@@ -12,15 +12,17 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={
-          <div className='home__background'>
+          <>
+            <div className='home__background'>
+              <div className='vl vl-1' />
+              <div className='vl vl-2' />
+              <div className='vl vl-3' />
+              <div className='vl vl-4' />
+            </div>
             <Header></Header>
             <Home></Home>
-            <div className='vl vl-1' />
-            <div className='vl vl-2' />
-            <div className='vl vl-3' />
-            <div className='vl vl-4' />
-
-          </div>
+            <Footer />
+          </>
         }>
         </Route>
         <Route path='/about'></Route>

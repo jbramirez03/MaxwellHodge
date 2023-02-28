@@ -91,7 +91,7 @@ button {
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 1rem 0 2rem;
 }
 
 .section__title {
@@ -235,7 +235,9 @@ button {
 
 .home__background {
   background-color: var(--home-body-color);
-  position: relative;
+  position: absolute;
+  height: 100%;
+  width: 100%;
   z-index: -12;
 }
 
@@ -285,4 +287,10 @@ button {
   display: flex;
   justify-content: flex-end;
   width: 60%;
+}
+
+.footer {
+  background-color: #434141;
+  margin-top: 3rem;
+  padding: 3rem;
 }

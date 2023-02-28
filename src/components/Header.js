@@ -12,7 +12,7 @@ const Header = () => {
     function linkAction() {
         setMenuState(false);
     }
-    navLink.forEach(n => n.addEventListener('click', linkAction))
+    // navLink.forEach(n => n.addEventListener('click', linkAction))
 
     function scrollHeader() {
         if (this.scrollY >= 80) setScrollState(true);
@@ -27,16 +27,16 @@ const Header = () => {
                 <div className={`nav__menu ${menuState ? 'show-menu' : ''}`} id='nav-menu'>
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <Link className='nav__link' to='/'>Home</Link>
+                            <Link className='nav__link' onClick={linkAction} to='/'>Home</Link>
                         </li>
                         <li className="nav__item">
-                            <Link className='nav__link' to='/about'>About</Link>
+                            <Link className='nav__link' onClick={linkAction} to='/about'>About</Link>
                         </li>
                         <li className="nav__item">
-                            <Link className="nav__link" to='/services'>Services</Link>
+                            <Link className="nav__link" onClick={linkAction} to='/services'>Services</Link>
                         </li>
                         <li className="nav__item">
-                            <Link className="nav__link" to='/contact'>Contact</Link>
+                            <Link className="nav__link" onClick={linkAction} to='/contact'>Contact</Link>
                         </li>
                     </ul>
 
