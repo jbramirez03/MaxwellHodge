@@ -4,10 +4,15 @@ import homeImg from '../images/main.png';
 const Home = () => {
     return (
         <div className='home__section section container' id='home'>
-            <div className='home__background'></div>
+
             <div className="home__image-container">
                 <img src={homeImg} />
-                <h1 className='home__title'>Maxwell Hodge</h1>
+                <div className="line__one">
+                    <h1 className='home__title'>Maxwell</h1>
+                </div>
+                <div className="line__two">
+                    <h1 className='home__title'>Hodge</h1>
+                </div>
                 <button className="home__button">Reach Me</button>
             </div>
         </div>

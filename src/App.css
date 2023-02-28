@@ -210,7 +210,7 @@ button {
 
 .vl {
   border-left: 1.2px solid #434141;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   margin-left: -3px;
   top: 0;
@@ -234,13 +234,9 @@ button {
 }
 
 .home__background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
   background-color: var(--home-body-color);
-  z-index: -11;
+  position: relative;
+  z-index: -12;
 }
 
 .home__image-container {
@@ -248,12 +244,13 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 0.5rem;
 }
 
 .home__image-container img {
   height: 75%;
   width: 75%;
+  margin-bottom: 1rem;
 }
 
 .home__title {
@@ -261,6 +258,7 @@ button {
 }
 
 .home__button {
+  margin-top: 1rem;
   width: 140px;
   height: 50px;
   border-radius: 5px;
@@ -275,4 +273,16 @@ button {
 .home__button:hover {
   background: transparent;
   border: solid 1px var(--text-color);
+}
+
+.line__one {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.line__two {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
 }
