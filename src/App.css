@@ -341,8 +341,19 @@ button {
 }
 
 .footer__information {
+  display: flex;
   font-size: var(--small-font-size);
   color: #bdbbbb;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.footer__information a {
+  color: #bdbbbb;
+}
+
+.footer__information a:hover {
+  color: var(--text-color);
 }
 
 .footer__social {

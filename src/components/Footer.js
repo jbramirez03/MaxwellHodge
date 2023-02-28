@@ -14,7 +14,8 @@ const Footer = () => {
                     <h3 className="footer__title">Contact Me</h3>
 
                     <ul className="footer__data">
-                        <li className="footer__information">+13365243110</li>
+                        <li className="footer__information"><i className="ri-phone-line"></i> +13365243110</li>
+                        <li className="footer__information"><i className="ri-mail-line"></i><a href="mailto:maxwellchodge@gmail.com">maxwellchodge@gmail.com</a></li>
 
                         <div className="footer__social">
                             <a
