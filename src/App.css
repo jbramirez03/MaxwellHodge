@@ -281,6 +281,8 @@ button {
 
 .footer__container {
   row-gap: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__logo {
@@ -385,5 +387,31 @@ button {
   .container {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .home__image-container img {
+    height: 50%;
+    width: 50%;
+  }
+
+  .home__image-container {
+    flex-direction: row;
+  }
+
+  .home__details {
+    row-gap: 3rem;
+  }
+
+  .home__title {
+    font-size: 4em;
+  }
+
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer__copy {
+    font-size: var(--normal-font-size);
   }
 }
