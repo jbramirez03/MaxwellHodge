@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MaxwellHodge/static/css/main.74567b0b.css",
-    "main.js": "/MaxwellHodge/static/js/main.645a09e3.js",
+    "main.css": "/MaxwellHodge/static/css/main.d070563b.css",
+    "main.js": "/MaxwellHodge/static/js/main.56c4772f.js",
     "static/media/main.png": "/MaxwellHodge/static/media/main.3737ae3157a443f6a73c.png",
     "static/media/home.png": "/MaxwellHodge/static/media/home.41f92c9ceeecc6934de2.png",
     "index.html": "/MaxwellHodge/index.html",
-    "main.74567b0b.css.map": "/MaxwellHodge/static/css/main.74567b0b.css.map",
-    "main.645a09e3.js.map": "/MaxwellHodge/static/js/main.645a09e3.js.map"
+    "main.d070563b.css.map": "/MaxwellHodge/static/css/main.d070563b.css.map",
+    "main.56c4772f.js.map": "/MaxwellHodge/static/js/main.56c4772f.js.map"
   },
   "entrypoints": [
-    "static/css/main.74567b0b.css",
-    "static/js/main.645a09e3.js"
+    "static/css/main.d070563b.css",
+    "static/js/main.56c4772f.js"
   ]
 }
