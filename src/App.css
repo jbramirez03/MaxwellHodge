@@ -259,14 +259,13 @@ button {
   border-radius: 5px;
   font-size: 1.15em;
   color: var(--text-color-lighten);
-  border: none;
-  background: #434141;
+  border: solid 1px var(--text-color);
+  background: transparent;
   transition: 0.3s ease-in;
 }
 
 .home__button:hover {
-  background: transparent;
-  border: solid 1px var(--text-color);
+  background: #434141;
 }
 
 .home__details {
