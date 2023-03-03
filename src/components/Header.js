@@ -29,13 +29,13 @@ const Header = () => {
                             <Link className='nav__link' onClick={linkAction} to='/'>Home</Link>
                         </li>
                         <li className="nav__item">
-                            <Link className='nav__link' onClick={linkAction} to='/about'>About</Link>
+                            <Link className='nav__link' onClick={linkAction} to='/About'>About</Link>
                         </li>
                         <li className="nav__item">
-                            <Link className="nav__link" onClick={linkAction} to='/services'>Services</Link>
+                            <Link className="nav__link" onClick={linkAction} to='/Services'>Services</Link>
                         </li>
                         <li className="nav__item">
-                            <Link className="nav__link" onClick={linkAction} to='/contact'>Contact</Link>
+                            <Link className="nav__link" onClick={linkAction} to='/Contact'>Contact</Link>
                         </li>
                     </ul>
 
