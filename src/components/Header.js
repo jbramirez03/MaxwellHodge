@@ -5,7 +5,6 @@ import logoImg from '../images/home.png';
 
 const Header = () => {
 
-    const navLink = document.querySelectorAll('.nav__link')
     const [menuState, setMenuState] = React.useState(false);
     const [scrollState, setScrollState] = React.useState(false);
 

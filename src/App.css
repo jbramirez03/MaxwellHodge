@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
+  --hue: 152;
   --header-height: 3.5rem;
   --text-color: hsl(47, 34%, 47%);
   --text-color-lighten: hsl(47, 32%, 65%);
@@ -51,7 +52,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: #fefdfd;
 }
 
 h1,
@@ -89,6 +90,16 @@ button {
 
 .grid {
   display: grid;
+}
+
+.header {
+  width: 100%;
+  background-color: #fefdfd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: 0.4s;
 }
 
 .section {
@@ -201,41 +212,12 @@ button {
 
 .scroll-header {
   background-color: #fff;
-  box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
+  box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, 0.1);
 }
 
 .scroll-header .nav__logo,
 .scroll-header .nav__toggle {
   color: var(--text-color);
-}
-
-.vl {
-  border-left: 1.2px solid #434141;
-  height: 100%;
-  position: absolute;
-  margin-left: -3px;
-  top: 0;
-  z-index: var(--z-index-negative);
-}
-
-.vl-home {
-  z-index: var(--z-index-positive);
-}
-
-.vl-1 {
-  left: 20%;
-}
-
-.vl-2 {
-  left: 40%;
-}
-
-.vl-3 {
-  left: 60%;
-}
-
-.vl-4 {
-  left: 80%;
 }
 
 .home__background {
@@ -247,7 +229,6 @@ button {
 }
 
 .home__section {
-  background-color: var(--home-body-color);
   margin: 0;
   position: relative;
 }
@@ -258,8 +239,6 @@ button {
   align-items: center;
   flex-direction: column;
   row-gap: 0.5rem;
-  position: relative;
-  z-index: 10;
 }
 
 .home__image-container img {
@@ -296,18 +275,6 @@ button {
   justify-content: center;
   align-items: center;
 }
-
-/* .home__line-one {
-  display: flex;
-  justify-content: flex-start;
-  width: 50%;
-}
-
-.home__line-two {
-  display: flex;
-  justify-content: flex-end;
-  width: 60%;
-} */
 
 .footer {
   background-color: #434141;
@@ -412,5 +379,12 @@ button {
 
   .home__title {
     font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
