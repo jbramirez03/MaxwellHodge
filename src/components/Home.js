@@ -11,13 +11,16 @@ const Home = () => {
 
             <div className="home__image-container">
                 <img src={homeImg} />
-                <div className="home__line-one">
-                    <h1 className='home__title'>Maxwell</h1>
+                <div className="home__details">
+
+                    <div className="home__line-one">
+                        <h1 className='home__title'>Maxwell</h1>
+                    </div>
+                    <div className="home__line-two">
+                        <h1 className='home__title'>Hodge</h1>
+                    </div>
+                    <button className="home__button">Reach Me</button>
                 </div>
-                <div className="home__line-two">
-                    <h1 className='home__title'>Hodge</h1>
-                </div>
-                <button className="home__button">Reach Me</button>
             </div>
         </div>
     )
