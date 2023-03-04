@@ -331,6 +331,21 @@ button {
   background: #434141;
 }
 
+.association__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+  row-gap: 2rem;
+}
+
+.association__image {
+  height: 40%;
+  width: 60%;
+}
+
 .footer {
   background-color: #434141;
 }

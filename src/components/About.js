@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImg from '../images/about.jpg';
+import firmLogo from '../images/firm.jpg';
 
 const About = () => {
     return (
@@ -17,6 +18,12 @@ const About = () => {
                 </div>
                 <p className="about__description">Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
                 <button className="about__button">Learn More</button>
+            </div>
+            <div className="association__block">
+                <div className="association__title">Associated With:</div>
+                <div className="association__image">
+                    <img src={firmLogo} alt="firm logo" />
+                </div>
             </div>
         </div>
     )
