@@ -35,9 +35,10 @@ const About = () => {
             <Swiper
                 className='mySwiper'
                 modules={[Navigation]}
+                loop
                 navigation={{
                     prevEl: '.swiper-button-prev',
-                    nextEl: '.swiper-button-next'
+                    nextEl: '.swiper-button-next',
                 }}
             >
                 <SwiperSlide>Slide 1</SwiperSlide>
