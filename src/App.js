@@ -26,7 +26,13 @@ function App() {
             <Footer></Footer>
           </>
         } ></Route>
-        <Route path='/services'></Route>
+        <Route path='/services' element={
+          <>
+            <Header></Header>
+            <Services></Services>
+            <Footer></Footer>
+          </>
+        }></Route>
         <Route path='/contact'></Route>
       </Routes>
     </Router>
