@@ -25,6 +25,14 @@ const About = () => {
                     <img src={firmLogo} alt="firm logo" />
                 </div>
             </div>
+
+            <div className="pic-ctn">
+                <div className="pic"><h2>Hello world</h2></div>
+                <div className="pic"></div>
+                <div className="pic"></div>
+                <div className="pic"></div>
+                <div className="pic"></div>
+            </div>
         </div>
     )
 }
