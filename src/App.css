@@ -281,8 +281,19 @@ button {
   flex-direction: column;
 }
 
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about__image-container {
-  padding: 2rem 5rem 1rem 5rem;
+  padding: 2rem;
+}
+
+.about__image-container img {
+  height: 300px;
+  width: 210px;
 }
 
 .about__details {
@@ -481,8 +492,19 @@ button {
     font-size: 3.5rem;
   }
 
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .about__image-container {
-    padding: 2rem 12rem 1rem 12rem;
+    padding: 2rem;
+  }
+
+  .about__image-container img {
+    height: 400px;
+    width: 300px;
   }
 
   .about__socials i {
@@ -541,6 +563,43 @@ button {
 
   .home__title {
     font-size: 4em;
+  }
+
+  .about__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+  }
+
+  .about__image-container {
+    padding: 2rem;
+  }
+
+  .about__image-container img {
+    height: 400px;
+    width: 300px;
+  }
+
+  .about__details {
+    padding: 2rem 2rem 0 2rem;
+    height: 400px;
+    width: 400px;
+  }
+
+  .mySwiper {
+    height: 375px;
+    width: 275px;
+  }
+
+  .swiper-slide {
+    padding: 2rem;
+  }
+
+  .association__image {
+    height: 15%;
+    width: 35%;
   }
 
   .footer__container {
