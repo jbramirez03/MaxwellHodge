@@ -282,7 +282,7 @@ button {
 }
 
 .about__image-container {
-  padding: 2rem 4rem 1rem 4rem;
+  padding: 2rem 5rem 1rem 5rem;
 }
 
 .about__details {
@@ -347,14 +347,14 @@ button {
 }
 
 .mySwiper {
-  width: 70%;
+  width: 275px;
   height: 350px;
   background: transparent;
   border: 2px solid var(--text-color);
 }
 
 .swiper-slide {
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -479,6 +479,44 @@ button {
 
   .home__title {
     font-size: 3.5rem;
+  }
+
+  .about__image-container {
+    padding: 2rem 12rem 1rem 12rem;
+  }
+
+  .about__socials i {
+    font-size: 1.35rem;
+    color: var(--text-color);
+  }
+
+  .about__description {
+    line-height: 1.8rem;
+  }
+
+  .about__button {
+    width: 140px;
+    height: 50px;
+  }
+
+  .about__details {
+    align-items: center;
+    text-align: center;
+    padding: 0 8rem 4rem 8rem;
+  }
+
+  .mySwiper {
+    height: 400px;
+    width: 350px;
+  }
+
+  .swiper-slide {
+    padding: 3.5rem;
+  }
+
+  .association__image {
+    height: 25%;
+    width: 45%;
   }
 }
 
