@@ -45,7 +45,6 @@ const About = () => {
                         <i className="bx bxs-star"></i>
                         <i className="bx bxs-star"></i>
                         <i className="bx bxs-star"></i>
-                        <i className="bx bxs-star"></i>
                     </div>
                     <p className="review__description">Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h3 className="review__author">- John Doe</h3>
@@ -55,8 +54,7 @@ const About = () => {
                         <i className="bx bxs-star"></i>
                         <i className="bx bxs-star"></i>
                         <i className="bx bxs-star"></i>
-                        <i className="bx bxs-star"></i>
-                        <i className="bx bxs-star"></i>
+
                     </div>
                     <p className="review__description">Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h3 className="review__author">- John Doe</h3>
