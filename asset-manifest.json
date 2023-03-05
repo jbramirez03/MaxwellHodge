@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/MaxwellHodge/static/css/main.8ec5cc1d.css",
-    "main.js": "/MaxwellHodge/static/js/main.d9c6222d.js",
+    "main.js": "/MaxwellHodge/static/js/main.e30ba933.js",
     "static/media/about.jpg": "/MaxwellHodge/static/media/about.d661e81d1a7ea3dc740c.jpg",
     "static/media/house.jpeg": "/MaxwellHodge/static/media/house.7e9d761a66d0e6b9970c.jpeg",
     "static/media/main.png": "/MaxwellHodge/static/media/main.3737ae3157a443f6a73c.png",
     "static/media/firm.jpg": "/MaxwellHodge/static/media/firm.646411d8add72b9ad900.jpg",
+    "static/media/deal.png": "/MaxwellHodge/static/media/deal.093344c701db6a074e06.png",
     "static/media/home.png": "/MaxwellHodge/static/media/home.41f92c9ceeecc6934de2.png",
+    "static/media/rent.png": "/MaxwellHodge/static/media/rent.72b1d797908f7c842e5c.png",
     "index.html": "/MaxwellHodge/index.html",
     "main.8ec5cc1d.css.map": "/MaxwellHodge/static/css/main.8ec5cc1d.css.map",
-    "main.d9c6222d.js.map": "/MaxwellHodge/static/js/main.d9c6222d.js.map"
+    "main.e30ba933.js.map": "/MaxwellHodge/static/js/main.e30ba933.js.map"
   },
   "entrypoints": [
     "static/css/main.8ec5cc1d.css",
-    "static/js/main.d9c6222d.js"
+    "static/js/main.e30ba933.js"
   ]
 }
