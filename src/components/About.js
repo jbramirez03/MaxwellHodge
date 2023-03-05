@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import aboutImg from '../images/about.jpg';
 import firmLogo from '../images/firm.jpg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper'
+import 'swiper/css';
+import "swiper/css/navigation";
+
 
 const About = () => {
+
     return (
         <div className='about__section section container' id='about'>
             <div className="about__image-container">
@@ -26,13 +32,26 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="pic-ctn">
-                <div className="pic"><h2>Hello world</h2></div>
-                <div className="pic"></div>
-                <div className="pic"></div>
-                <div className="pic"></div>
-                <div className="pic"></div>
-            </div>
+            <Swiper
+                className='mySwiper'
+                modules={[Navigation]}
+                navigation={{
+                    prevEl: '.swiper-button-prev',
+                    nextEl: '.swiper-button-next'
+                }}
+            >
+                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide>
+                <div className="swiper-button-next">
+                    <i className="bx bx-chevron-right"></i>
+                </div>
+                <div className="swiper-button-prev">
+                    <i className="bx bx-chevron-left"></i>
+                </div>
+
+            </Swiper>
         </div>
     )
 }

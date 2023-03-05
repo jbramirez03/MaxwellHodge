@@ -346,66 +346,36 @@ button {
   width: 60%;
 }
 
-@keyframes display {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-
-  10% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  20% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-
-  30% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-}
-
-.pic-ctn {
-  position: relative;
-  width: 100%;
+.swiper {
+  width: 75%;
   height: 300px;
-  margin-top: 15vh;
-  z-index: -10;
-  background-color: #434141;
 }
 
-.pic {
-  width: 400px;
-  height: 300px;
-  background-color: #a83b2c;
-  position: absolute;
-  top: 0;
-  left: 18%;
-  opacity: 0;
-  animation: display 10s infinite;
-  z-index: -10;
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
 }
 
-.pic:nth-child(2) {
-  animation-delay: 2s;
+.swiper-button-next,
+.swiper-button-prev {
+  top: initial;
+  bottom: 0;
+  width: initial;
+  height: initial;
+  background-color: #f6f6f6;
+  border: 2px solid var(--text-color);
+  padding: 6px;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
 }
 
-.pic:nth-child(3) {
-  animation-delay: 4s;
+.swiper-button-prev {
+  left: calc(50% - 3rem);
 }
-.pic:nth-child(4) {
-  animation-delay: 6s;
-}
-.pic:nth-child(5) {
-  animation-delay: 8s;
+
+.swiper-button-next {
+  right: calc(50% - 3rem);
 }
 
 .footer {
