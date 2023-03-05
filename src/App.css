@@ -346,36 +346,32 @@ button {
   width: 60%;
 }
 
-.swiper {
-  width: 75%;
-  height: 300px;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: "";
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  top: initial;
-  bottom: 0;
-  width: initial;
-  height: initial;
-  background-color: #f6f6f6;
+.mySwiper {
+  width: 70%;
+  height: 350px;
+  background: transparent;
   border: 2px solid var(--text-color);
-  padding: 6px;
-  border-radius: 0.5rem;
-  font-size: 1.5rem;
-  color: var(--first-color);
 }
 
-.swiper-button-prev {
-  left: calc(50% - 3rem);
+.swiper-slide {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 6.5rem;
 }
 
-.swiper-button-next {
-  right: calc(50% - 3rem);
+.review__stars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.review__description {
+  font-size: 1.2rem;
+  font-weight: var(--font-medium);
 }
 
 .footer {
