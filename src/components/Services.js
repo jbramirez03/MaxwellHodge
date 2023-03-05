@@ -1,11 +1,12 @@
 import React from 'react'
+import houseImg from '../images/house.jpeg'
 
 const Services = () => {
     return (
         <div className='section container services__container'>
             <div className="services__hero">
                 <div className="services__image-container">
-                    <img src="" alt="" />
+                    <img src={houseImg} alt="residential homes" />
                 </div>
                 <div className="services__content">
                     <h1 className="services__title">Services</h1>
