@@ -6,7 +6,7 @@ import dealIcon from '../images/deal.png'
 
 const Services = () => {
     return (
-        <div className='section container services__container'>
+        <div className='section container services__section'>
             <div className="services__hero">
                 <div className="services__image-container">
                     <img src={houseImg} alt="residential homes" />
@@ -18,10 +18,10 @@ const Services = () => {
                     </p>
                 </div>
             </div>
+            <h2 className='services__subtitle'>
+                My Main Focus
+            </h2>
             <div className="services__blocks">
-                <h2 className='services__subtitle'>
-                    My Main Focus
-                </h2>
                 <div className="service__block">
                     <img src={homeIcon} alt="home icon" />
                     <h3 className='service__block-title'>Buy A Home</h3>

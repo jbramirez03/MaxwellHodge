@@ -385,6 +385,69 @@ button {
   font-weight: var(--font-medium);
 }
 
+.services__section {
+  padding: 5.5rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.services__title {
+  font-size: var(--biggest-font-size);
+}
+
+.services__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  padding: 2rem;
+}
+
+.services__image-container img {
+  height: 200px;
+  width: 300px;
+}
+
+.services__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 0 1.5rem 0 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.services__blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.service__block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.5rem;
+  align-items: center;
+  padding: 1rem;
+  width: 275px;
+  height: 250px;
+  border: 2px solid var(--text-color);
+  box-shadow: 1px 8px 12px 5px rgba(177, 176, 176, 0.4);
+}
+
+.service__block img {
+  width: 40px;
+  height: 40px;
+}
+
+.services__subtitle {
+  font-weight: var(--font-medium);
+  margin-bottom: 3rem;
+}
+
 .footer {
   background-color: #434141;
 }
