@@ -694,6 +694,35 @@ button {
     width: 35%;
   }
 
+  .services__hero {
+    flex-direction: row;
+    padding: 2rem 6rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .services__content {
+    width: 400px;
+    padding: 0 3rem 0 3rem;
+    margin-bottom: 0;
+  }
+
+  .services__image-container {
+    height: 300px;
+    width: 400px;
+  }
+
+  .services__image-container img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .services__blocks {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
   .footer__container {
     flex-direction: row;
     justify-content: space-around;
