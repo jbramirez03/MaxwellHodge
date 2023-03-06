@@ -443,9 +443,19 @@ button {
   height: 40px;
 }
 
+.services__description {
+  line-height: 2rem;
+}
+
 .services__subtitle {
   font-weight: var(--font-medium);
+  font-size: 1.5rem;
   margin-bottom: 3rem;
+}
+
+.service__block-title {
+  font-weight: var(--normal-font-size);
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -541,6 +551,8 @@ button {
   .nav__list {
     flex-direction: row;
     column-gap: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   .nav__menu {
@@ -602,6 +614,23 @@ button {
   .association__image {
     height: 25%;
     width: 45%;
+  }
+
+  .services__image-container img {
+    height: 400px;
+    width: 600px;
+  }
+
+  .services__content {
+    padding: 0 3rem 0 3rem;
+  }
+
+  .services__description {
+    font-size: 1.2rem;
+  }
+
+  .services__subtitle {
+    font-size: 1.75rem;
   }
 }
 
