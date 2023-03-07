@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MaxwellHodge/static/css/main.73c89c51.css",
-    "main.js": "/MaxwellHodge/static/js/main.9c1a20c5.js",
+    "main.js": "/MaxwellHodge/static/js/main.8eb78335.js",
     "static/media/about.jpg": "/MaxwellHodge/static/media/about.d661e81d1a7ea3dc740c.jpg",
     "static/media/house.jpeg": "/MaxwellHodge/static/media/house.7e9d761a66d0e6b9970c.jpeg",
     "static/media/main.png": "/MaxwellHodge/static/media/main.3737ae3157a443f6a73c.png",
@@ -11,10 +11,10 @@
     "static/media/rent.png": "/MaxwellHodge/static/media/rent.72b1d797908f7c842e5c.png",
     "index.html": "/MaxwellHodge/index.html",
     "main.73c89c51.css.map": "/MaxwellHodge/static/css/main.73c89c51.css.map",
-    "main.9c1a20c5.js.map": "/MaxwellHodge/static/js/main.9c1a20c5.js.map"
+    "main.8eb78335.js.map": "/MaxwellHodge/static/js/main.8eb78335.js.map"
   },
   "entrypoints": [
     "static/css/main.73c89c51.css",
-    "static/js/main.9c1a20c5.js"
+    "static/js/main.8eb78335.js"
   ]
 }
