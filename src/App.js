@@ -33,7 +33,13 @@ function App() {
             <Footer></Footer>
           </>
         }></Route>
-        <Route path='/contact'></Route>
+        <Route path='/contact' element={
+          <>
+            <Header></Header>
+            <Contact></Contact>
+            <Footer></Footer>
+          </>
+        }></Route>
       </Routes>
     </Router>
   );
