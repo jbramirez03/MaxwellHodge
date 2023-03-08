@@ -465,6 +465,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  row-gap: 4rem;
 }
 
 .contact__left {
@@ -560,6 +561,25 @@ button {
 
 .contact__button:hover .button__icon {
   transform: translateX(0.25rem);
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.contact__option {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+
+.option__link {
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
 }
 
 .footer {
