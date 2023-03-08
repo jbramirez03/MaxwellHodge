@@ -34,7 +34,7 @@ const Contact = () => {
                         <h3 className="option__title">Call</h3>
                         <p className="option__description">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <a className="option__link" href='tel:3365243110'>
-                            <i className="ri-phone-line"></i> 336-524-3130
+                            <i className="ri-phone-line"></i> 336-524-3110
                         </a>
                     </div>
                     <div className="contact__option">
@@ -59,11 +59,46 @@ const Contact = () => {
                 </div>
 
                 <div className="faq__questions">
-                    <div className="question__block"></div>
-                    <div className="question__block"></div>
-                    <div className="question__block"></div>
-                    <div className="question__block"></div>
-                    <div className="question__block"></div>
+                    <div className="questions__group">
+                        <div className="question__block">
+                            <header className="question__header">
+                                <i className="ri-add-line question__icon"></i>
+                                <h3 className="question__title"></h3>
+                            </header>
+                            <div className="question__content">
+                                <p className="question__description"></p>
+                            </div>
+                        </div>
+                        <div className="question__block">
+                            <header className="question__header">
+                                <i className="ri-add-line question__icon"></i>
+                                <h3 className="question__title"></h3>
+                            </header>
+                            <div className="question__content">
+                                <p className="question__description"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="questions__group">
+                        <div className="question__block">
+                            <header className="question__header">
+                                <i className="ri-add-line question__icon"></i>
+                                <h3 className="question__title"></h3>
+                            </header>
+                            <div className="question__content">
+                                <p className="question__description"></p>
+                            </div>
+                        </div>
+                        <div className="question__block">
+                            <header className="question__header">
+                                <i className="ri-add-line question__icon"></i>
+                                <h3 className="question__title"></h3>
+                            </header>
+                            <div className="question__content">
+                                <p className="question__description"></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
