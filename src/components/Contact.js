@@ -29,7 +29,28 @@ const Contact = () => {
                         </button>
                     </form>
                 </div>
-                <div className="contact__options"></div>
+                <div className="contact__options">
+                    <div className="contact__option">
+                        <h3 className="option__title">Call</h3>
+                        <p className="option__description">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a className="option__link" href='tel:3365243110'>
+                            <i className="ri-phone-line"></i> 336-524-3130
+                        </a>
+                    </div>
+                    <div className="contact__option">
+                        <h3 className="option__title">Email</h3>
+                        <p className="option__description">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a className="option__link" href='mailto:maxwellchodge@gmail.com' rel='__blank'>
+                            <i className="ri-mail-line"></i> maxwellchodge@gmail.com
+                        </a>
+                    </div>
+                    <div className="contact__option">
+                        <h3 className="option__title">Socials</h3>
+                        <p className="option__description">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a className="option__link"><i className="ri-instagram-line"></i></a>
+                        <a className="option__link"><i className="ri-facebook-fill"></i></a>
+                    </div>
+                </div>
             </div>
             <div className="contact__faq">
                 <div className="faq__titles">
