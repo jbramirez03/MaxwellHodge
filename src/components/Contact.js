@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='section container contact__section' id='contact'>
+        <div className='container contact__section' id='contact'>
             <div className="contact__container">
                 <div className="contact__left">
                     <h1 className="contact__title">Get in touch</h1>
@@ -23,7 +23,7 @@ const Contact = () => {
                                 <label htmlFor="message" className='contact__label'>Message</label>
                             </div>
                         </div>
-                        <button className="button button--flex" action='submit'>
+                        <button className="contact__button" action='submit'>
                             Send Message
                             <i className="ri-arrow-right-up-line button__icon"></i>
                         </button>
