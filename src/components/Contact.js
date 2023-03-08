@@ -54,8 +54,8 @@ const Contact = () => {
             </div>
             <div className="contact__faq">
                 <div className="faq__titles">
-                    <h3 className="faq__small"></h3>m
-                    <h1 className="faq__big"></h1>
+                    <h3 className="faq__small">FAQ</h3>
+                    <h1 className="faq__big">Frequently<br />Asked<br />Questions</h1>
                 </div>
 
                 <div className="faq__questions">
