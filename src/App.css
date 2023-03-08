@@ -10,7 +10,7 @@
   --body-color: #f6f6f6;
   --home-body-color: hsl(0, 0%, 15%);
 
-  --body-cont: "poppins", sans-serif;
+  --body-font: "Poppins", sans-serif;
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -249,7 +249,7 @@ button {
 
 .home__title {
   font-size: var(--biggest-font-size);
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 
 .home__button {
@@ -359,6 +359,7 @@ button {
 .mySwiper {
   width: 275px;
   height: 350px;
+  padding: 1rem;
   background: transparent;
   border: 2px solid var(--text-color);
 }
@@ -368,7 +369,7 @@ button {
   display: flex;
   flex-direction: column;
   text-align: center;
-  row-gap: 6.5rem;
+  row-gap: 3.5rem;
 }
 
 .review__stars {
@@ -541,7 +542,7 @@ button {
 
 .contact__button {
   margin-top: 1rem;
-  width: 130px;
+  width: 150px;
   height: 45px;
   font-size: 1em;
   color: var(--text-color-lighten);
