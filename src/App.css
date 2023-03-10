@@ -84,8 +84,8 @@ button {
 
 .container {
   max-width: 968px;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .grid {
@@ -590,6 +590,69 @@ button {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
+}
+
+.faq__questions {
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.questions__group {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.question__block {
+  border-radius: 0.25rem;
+  background-color: #eeeeee;
+}
+
+.question__header {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+}
+
+.question__icon {
+  font-size: 1.25rem;
+}
+
+.question__title {
+  color: var(--second-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.question__content {
+  overflow: hidden;
+  height: 0;
+}
+
+.question__description {
+  font-size: var(--smaller-font-size);
+  padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+.technologies__item:hover {
+  box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, 0.15);
+}
+
+/*Rotate icon, change color of titles and background*/
+.accordion-open .question__header,
+.accordion-open .question__content {
+  background-color: var(--first-color);
+}
+
+.accordion-open .question__title,
+.accordion-open .question__description,
+.accordion-open .question__icon {
+  color: #fff;
+}
+
+.accordion-open .question__icon {
+  transform: rotate(45deg);
 }
 
 .footer {
