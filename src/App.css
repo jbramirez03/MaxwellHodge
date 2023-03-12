@@ -830,6 +830,23 @@ button {
   .services__subtitle {
     font-size: 1.75rem;
   }
+
+  .contact__container {
+    margin-top: 2rem;
+    flex-direction: row;
+    column-gap: 4rem;
+    justify-content: center;
+  }
+
+  .contact__left {
+    width: 40%;
+    padding-right: 2rem;
+    border-right: 2px solid #434141;
+  }
+
+  .faq__questions {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -928,5 +945,16 @@ button {
 
   .footer__copy {
     font-size: var(--normal-font-size);
+  }
+
+  .faq__titles {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .faq__questions {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: flex-start;
   }
 }
