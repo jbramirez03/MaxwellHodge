@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MaxwellHodge/static/css/main.0050b5cb.css",
-    "main.js": "/MaxwellHodge/static/js/main.53387354.js",
+    "main.css": "/MaxwellHodge/static/css/main.59e324d2.css",
+    "main.js": "/MaxwellHodge/static/js/main.ea5a29c8.js",
     "static/media/about.jpg": "/MaxwellHodge/static/media/about.d661e81d1a7ea3dc740c.jpg",
     "static/media/house.jpeg": "/MaxwellHodge/static/media/house.7e9d761a66d0e6b9970c.jpeg",
     "static/media/main.png": "/MaxwellHodge/static/media/main.3737ae3157a443f6a73c.png",
@@ -10,11 +10,11 @@
     "static/media/home.png": "/MaxwellHodge/static/media/home.41f92c9ceeecc6934de2.png",
     "static/media/rent.png": "/MaxwellHodge/static/media/rent.72b1d797908f7c842e5c.png",
     "index.html": "/MaxwellHodge/index.html",
-    "main.0050b5cb.css.map": "/MaxwellHodge/static/css/main.0050b5cb.css.map",
-    "main.53387354.js.map": "/MaxwellHodge/static/js/main.53387354.js.map"
+    "main.59e324d2.css.map": "/MaxwellHodge/static/css/main.59e324d2.css.map",
+    "main.ea5a29c8.js.map": "/MaxwellHodge/static/js/main.ea5a29c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0050b5cb.css",
-    "static/js/main.53387354.js"
+    "static/css/main.59e324d2.css",
+    "static/js/main.ea5a29c8.js"
   ]
 }
