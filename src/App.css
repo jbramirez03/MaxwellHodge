@@ -486,19 +486,34 @@ button {
   font-size: var(--h2-font-size);
 }
 
-.contact__inputs {
+.home__form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.home__form-container form {
+  width: 70%;
+}
+
+.contact__inputs,
+.home__inputs {
   display: grid;
   row-gap: 2rem;
   margin-bottom: 2.5rem;
 }
 
-.contact__content {
+.contact__content,
+.home__content {
   position: relative;
   height: 3rem;
   border-bottom: 1px solid #434141;
 }
 
-.contact__input {
+.contact__input,
+.home__input {
   position: absolute;
   top: 0;
   left: 0;
@@ -512,7 +527,8 @@ button {
   z-index: 1;
 }
 
-.contact__label {
+.contact__label,
+.home__label {
   position: absolute;
   top: 0.75rem;
   width: 100%;
@@ -521,15 +537,18 @@ button {
   transition: 0.3s;
 }
 
-.contact__area {
+.contact__area,
+.home__area {
   height: 7rem;
 }
 
-.contact__area textarea {
+.contact__area textarea,
+.home__area textarea {
   resize: none;
 }
 
-.contact__input:focus + .contact__label {
+.contact__input:focus + .contact__label,
+.home__input:focus + .home__label {
   top: -0.75rem;
   left: 0;
   font-size: var(--smaller-font-size);
@@ -537,13 +556,15 @@ button {
 }
 
 .contact__input:not(:placeholder-shown).contact__input:not(:focus)
-  + .contact__label {
+  + .contact__label,
+.home__input:not(:placeholder-shown).home__input:not(:focus) + .home__label {
   top: -0.75rem;
   font-size: var(--smaller-font-size);
   z-index: 10;
 }
 
-.contact__button {
+.contact__button,
+.home__button {
   margin-top: 1rem;
   width: 150px;
   height: 45px;
@@ -563,7 +584,8 @@ button {
   transition: 0.3s;
 }
 
-.contact__button:hover .button__icon {
+.contact__button:hover .button__icon,
+.home__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
 
@@ -763,6 +785,10 @@ button {
 
   .home__title {
     font-size: 3.5rem;
+  }
+
+  .home__form-container form {
+    width: 50%;
   }
 
   .about__content {
