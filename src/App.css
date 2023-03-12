@@ -375,7 +375,6 @@ button {
 .mySwiper {
   width: 275px;
   height: 350px;
-  padding: 1rem;
   background: transparent;
   border: 2px solid var(--text-color);
   box-shadow: 1px 8px 12px 5px rgba(177, 176, 176, 0.4);
@@ -386,7 +385,12 @@ button {
   display: flex;
   flex-direction: column;
   text-align: center;
-  row-gap: 3.5rem;
+  row-gap: 1.5rem;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .review__stars {
@@ -655,7 +659,7 @@ button {
 .question__content {
   overflow: hidden;
   height: 0;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .question__description {
