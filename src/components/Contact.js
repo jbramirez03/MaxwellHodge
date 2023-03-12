@@ -1,6 +1,23 @@
 import React from 'react'
 
 const Contact = () => {
+    let q1 = document.querySelector('#question-1')
+    let q2 = document.querySelector('#question-1')
+    let q3 = document.querySelector('#question-1')
+    let q4 = document.querySelector('#question-1')
+
+    const openQuestion = (question) => {
+        const content = question.querySelector('.question__content');
+
+        if (question.classList.contains('accordion-open')) {
+            content.removeAttribute('style');
+            question.classList.remove('accordion-open');
+        } else {
+            content.style.height = content.scrollHeight + 'px';
+            question.classList.add('accordion-open');
+        }
+    }
+
     return (
         <div className='container contact__section' id='contact'>
             <div className="contact__container">
@@ -60,42 +77,42 @@ const Contact = () => {
 
                 <div className="faq__questions grid">
                     <div className="questions__group">
-                        <div className="question__block">
+                        <div className="question__block" id='question-1' ref={question1 => (q1 = question1)} onClick={() => openQuestion(q1)}>
                             <header className="question__header">
                                 <i className="ri-add-line question__icon"></i>
                                 <h3 className="question__title">Question?</h3>
                             </header>
                             <div className="question__content">
-                                <p className="question__description"></p>
+                                <p className="question__description">Creating innovative site designs, transform client vision and input into personalized brand style and create competitve website. Quick to respond to clients, quick-pace with ability to bring site to client as soon as possible. Make sites perform efficiently with user data downloads kept in mind.</p>
                             </div>
                         </div>
-                        <div className="question__block">
+                        <div className="question__block" id='question-2' ref={question2 => (q2 = question2)} onClick={() => openQuestion(q2)}>
                             <header className="question__header">
                                 <i className="ri-add-line question__icon"></i>
                                 <h3 className="question__title">Question?</h3>
                             </header>
                             <div className="question__content">
-                                <p className="question__description"></p>
+                                <p className="question__description">Creating innovative site designs, transform client vision and input into personalized brand style and create competitve website. Quick to respond to clients, quick-pace with ability to bring site to client as soon as possible. Make sites perform efficiently with user data downloads kept in mind.</p>
                             </div>
                         </div>
                     </div>
                     <div className="questions__group">
-                        <div className="question__block">
+                        <div className="question__block" id='question-3' ref={question3 => (q3 = question3)} onClick={() => openQuestion(q3)}>
                             <header className="question__header">
                                 <i className="ri-add-line question__icon"></i>
                                 <h3 className="question__title">Question?</h3>
                             </header>
                             <div className="question__content">
-                                <p className="question__description"></p>
+                                <p className="question__description">Creating innovative site designs, transform client vision and input into personalized brand style and create competitve website. Quick to respond to clients, quick-pace with ability to bring site to client as soon as possible. Make sites perform efficiently with user data downloads kept in mind.</p>
                             </div>
                         </div>
-                        <div className="question__block">
+                        <div className="question__block" id='question-4' ref={question4 => (q4 = question4)} onClick={() => openQuestion(q4)}>
                             <header className="question__header">
                                 <i className="ri-add-line question__icon"></i>
                                 <h3 className="question__title">Question?</h3>
                             </header>
                             <div className="question__content">
-                                <p className="question__description"></p>
+                                <p className="question__description">Creating innovative site designs, transform client vision and input into personalized brand style and create competitve website. Quick to respond to clients, quick-pace with ability to bring site to client as soon as possible. Make sites perform efficiently with user data downloads kept in mind.</p>
                             </div>
                         </div>
                     </div>
