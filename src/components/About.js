@@ -108,6 +108,32 @@ const About = () => {
                     <h4 className="review__location">Greensboro, NC 2022</h4>
                     <p className="review__description">"We happened upon Maxwell at an open house in Brown's Summit, and loved his charisma instantly. We just relocated to NC and did not have any idea of where we wanted to live in the Triad area. Maxwell was very helpful, exceedingly patient, and made the transition a joy. He quickly picked up on some of our needs/wants (single floor, mud room for the cat box, etc), and didn't laugh at us when we threw them all out the window to purchase a downtown townhome. If any of my friends are in the market for a new house, I will 100% recommend that they call Maxwell, and if you're reading this review, I recommend you do the same. Moving to a state you're not terribly familiar with is incredibly stressful, and we were lucky to find such a fantastic agent!"</p>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Chris H</h3>
+                    <h4 className="review__location">Greensboro, NC 2022</h4>
+                    <p className="review__description">"This was our second time buying a home. Without prior experience, we found our first realtor to be very good with no complaints. I have to tell you, the difference between very good and excellent are night and day. Maxwell was with us every step of the way, exceptionally attentive, answering phone calls, emails and texts at all hours. We had many concerns about the property and process and he never failed to be immediately on top of everything. We met him randomly at an open house that he was hosting and could not be happier with the serendipity of that meeting. Thank you Maxwell for everything! We would recommend you without hesitation to anyone seeking a steadfast and dedicated realtor to be on their side!"</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Jamir D.</h3>
+                    <h4 className="review__location">Burlington, NC 2022</h4>
+                    <p className="review__description">"Max is fantastic! Friendly, knowledgeable, and honest. He is also responsive which
+                        makes the whole process a breeze."</p>
+                </SwiperSlide>
+
             </Swiper>
             <div className="association__block">
                 <div className="association__title">Associated With:</div>
