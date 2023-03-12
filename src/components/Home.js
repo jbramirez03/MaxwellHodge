@@ -2,6 +2,9 @@ import React from 'react'
 import homeImg from '../images/main.png';
 
 const Home = () => {
+
+    const [formState, setFormState] = React.useState(false);
+
     return (
         <div className='home__section section container' id='home'>
             <div className='vl-home vl vl-1' />
@@ -19,10 +22,10 @@ const Home = () => {
                     <div className="home__line-two">
                         <h1 className='home__title'>Hodge</h1>
                     </div>
-                    <button className="home__button">Reach Me</button>
+                    <button className="home__button" onClick={() => formState ? setFormState(false) : setFormState(true)}>Reach Me</button>
                 </div>
             </div>
-            <div className="home__form-container">
+            <div className={`home__form-container ${formState ? 'form-open' : ''}`}>
                 <form className="home__form" method='POST' action=''>
                     <div className="home__inputs">
                         <div className="home__content">

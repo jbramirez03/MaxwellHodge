@@ -247,6 +247,22 @@ button {
   margin-bottom: 1rem;
 }
 
+.home__form-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.home__form-container form {
+  width: 70%;
+}
+
+.form-open {
+  display: flex;
+}
+
 .home__title {
   font-size: var(--biggest-font-size);
   letter-spacing: 5px;
@@ -362,6 +378,7 @@ button {
   padding: 1rem;
   background: transparent;
   border: 2px solid var(--text-color);
+  box-shadow: 1px 8px 12px 5px rgba(177, 176, 176, 0.4);
 }
 
 .swiper-slide {
@@ -484,18 +501,6 @@ button {
 .contact__subtitle {
   color: var(--second-color);
   font-size: var(--h2-font-size);
-}
-
-.home__form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 4rem;
-}
-
-.home__form-container form {
-  width: 70%;
 }
 
 .contact__inputs,
@@ -660,6 +665,7 @@ button {
 
 .question__block:hover {
   box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, 0.15);
+  transition: 0.3s;
 }
 
 /*Rotate icon, change color of titles and background*/
