@@ -133,6 +133,100 @@ const About = () => {
                     <p className="review__description">"Max is fantastic! Friendly, knowledgeable, and honest. He is also responsive which
                         makes the whole process a breeze."</p>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">KyMani Dula</h3>
+                    <h4 className="review__location">Burlington, NC 2022</h4>
+                    <p className="review__description">"He helped us buy the house and helped us sell it. Quick with response times, really
+                        cool to get along with and can literally answer any questions you have!
+
+                        Made our first purchase and first sell process feel smooth and easy."</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Sgonzalez</h3>
+                    <h4 className="review__location">Burlington, NC 2019</h4>
+                    <p className="review__description">"As first time homebuyers me and my fiancé were so lucky to find Max he not only
+                        answered all our questions but also made sure we understood the whole process
+                        threw out the entire time.Max made buying our home less stressful and an enjoyable
+                        experience! We will forever be thankful and grateful for his help!"</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Breeana matos</h3>
+                    <h4 className="review__location">Burlington, NC 2019</h4>
+                    <p className="review__description">"Max helped me and my husband find the perfect 1st home. He went above and
+                        beyond to answer all my questions! As well as finding us a beautiful home based on
+                        our wants and needs that we expressed. I highly recommend him for all your home
+                        buying needs!"</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Josh Matos</h3>
+                    <h4 className="review__location">Burlington, NC 2019</h4>
+                    <p className="review__description">"Maxwell helped me and my wife get our first house not to long after we got married.
+                        He was very helpful and made the whole process a lot easier."</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Matt W</h3>
+                    <h4 className="review__location">Elon, NC 2021</h4>
+                    <p className="review__description">"Max was a awesome to work with and he always answered my calls, or at least
+                        called back quickly when he wasn't able to answer. He is very professional and knew
+                        the market very well. The advise given throughout the prosses was not only accurate
+                        but well timed and needed. He is my real estate guy, period."</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="review__stars">
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                        <i className="bx bxs-star"></i>
+                    </div>
+                    <h3 className="review__author">Isaac</h3>
+                    <h4 className="review__location">Burlington, NC 2020</h4>
+                    <p className="review__description">"Max was more than helpful in finding us an home in Burlington. He was extremely
+                        honest, upfront, and was able to find us an unbelievable house that fit right in our
+                        price range! He was extremely communicative and easy to reach to answer any of
+                        our questions at all times. This was the first house that we ever purchased, we were
+                        very nervous beginning our search but when we brought Max into the process he
+                        took it upon himself to turn our nerves into pure excitement and creating a stress
+                        free house hunt. I would highly recommend this agent!"</p>
+                </SwiperSlide>
+
+
+
 
             </Swiper>
             <div className="association__block">
