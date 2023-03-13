@@ -338,6 +338,15 @@ button {
   color: var(--text-color);
 }
 
+.about__social-link {
+  cursor: pointer;
+}
+
+.about__social-link:hover {
+  transform: translateY(0.25rem);
+  transition: 0.4s;
+}
+
 .about__description {
   line-height: 1.4rem;
 }
@@ -628,6 +637,15 @@ button {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+}
+
+.option__link:hover {
+  color: var(--text-color-lighten);
+}
+
+.option__link i:hover {
+  transform: translateY(0.25rem);
+  transition: 0.3s;
 }
 
 .faq__titles {

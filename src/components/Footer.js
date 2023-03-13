@@ -14,12 +14,12 @@ const Footer = () => {
                     <h3 className="footer__title">Contact Me</h3>
 
                     <ul className="footer__data">
-                        <li className="footer__information"><i className="ri-phone-line"></i> +13365243110</li>
+                        <li className="footer__information"><i className="ri-phone-line"></i><a href="tel:+13365243110"> +13365243110</a></li>
                         <li className="footer__information"><i className="ri-mail-line"></i><a href="mailto:maxwellchodge@gmail.com">maxwellchodge@gmail.com</a></li>
 
                         <div className="footer__social">
                             <a
-                                href="https://www.instagram.com/"
+                                href="https://www.instagram.com/maxwellhodge/"
                                 target="_blank"
                                 className="footer__social-link">
                                 <i className="ri-instagram-line"></i>
