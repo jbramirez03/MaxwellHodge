@@ -3,7 +3,7 @@ import aboutImg from '../images/about.jpg';
 import firmLogo from '../images/firm.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
+import referenceLogo from '../images/realtor.jpg';
 
 
 const About = () => {
@@ -224,11 +224,8 @@ const About = () => {
                         took it upon himself to turn our nerves into pure excitement and creating a stress
                         free house hunt. I would highly recommend this agent!"</p>
                 </SwiperSlide>
-
-
-
-
             </Swiper>
+            <span className="reference"><h4>Sourced by</h4> <a target='_blank' href="https://www.realtor.com/realestateagents/5bd92a15ba450e0011f96557"><img className='reference__img' src={referenceLogo} alt="reference logo" /></a></span>
             <div className="association__block">
                 <div className="association__title">Associated With:</div>
                 <div className="association__image">

@@ -406,6 +406,19 @@ button {
   font-weight: var(--font-medium);
 }
 
+.reference {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.reference__img {
+  height: 100px;
+  width: 300px;
+}
+
 .services__section {
   padding: 5.5rem 0 1rem;
   display: flex;
