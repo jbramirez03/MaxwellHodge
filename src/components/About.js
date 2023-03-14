@@ -4,6 +4,7 @@ import firmLogo from '../images/firm.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import referenceLogo from '../images/realtor.jpg';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -24,7 +25,7 @@ const About = () => {
                         <a href="" className="about__social-link"><i className="ri-mail-line about__social-link"></i></a>
                     </div>
                     <p className="about__description">Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
-                    <button className="about__button">Learn More</button>
+                    <Link to='/services' className="about__button">Learn More</Link>
                 </div>
             </div>
             <Swiper
