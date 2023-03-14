@@ -612,6 +612,7 @@ button {
   align-items: center;
   justify-content: center;
   column-gap: 0.5rem;
+  cursor: pointer;
 }
 
 .button__icon {
