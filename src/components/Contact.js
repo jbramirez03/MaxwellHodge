@@ -64,8 +64,8 @@ const Contact = () => {
                     <div className="contact__option">
                         <h3 className="option__title">Socials</h3>
                         <p className="option__description">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a target='_blank' href='https://www.instagram.com/maxwellhodge/' className="option__link"><i className="ri-instagram-line"></i></a>
-                        <a target='_blank' href='https://www.facebook.com/' className="option__link"><i className="ri-facebook-fill"></i></a>
+                        <a target='_blank' href='https://www.instagram.com/maxwellhodge/' className="icon__option-link"><i className="ri-instagram-line"></i></a>
+                        <a target='_blank' href='https://www.facebook.com/' className="icon__option-link"><i className="ri-facebook-fill"></i></a>
                     </div>
                 </div>
             </div>

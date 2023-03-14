@@ -424,8 +424,8 @@ button {
 }
 
 .reference__img {
-  height: 100px;
-  width: 300px;
+  height: 75px;
+  width: 225px;
 }
 
 .services__section {
@@ -639,13 +639,20 @@ button {
   column-gap: 0.5rem;
 }
 
-.option__link:hover {
-  color: var(--text-color-lighten);
+.icon__option-link {
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
 }
 
-.option__link i:hover {
+.icon__option-link:hover {
   transform: translateY(0.25rem);
   transition: 0.3s;
+}
+
+.option__link:hover {
+  color: var(--text-color-lighten);
 }
 
 .faq__titles {
@@ -960,6 +967,10 @@ button {
     padding: 2rem 2rem 0 2rem;
     height: 400px;
     width: 400px;
+  }
+
+  .about__button {
+    padding: 0.25rem;
   }
 
   .mySwiper {
